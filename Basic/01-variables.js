@@ -1,29 +1,27 @@
-/*
-Clase 16 - Variables
-Vídeo: https://youtu.be/1glVfFxj8a4?t=3049
-*/
-
 // var
 
-var helloWorld = "¡Hola, JavaScript!"
-console.log(helloWorld)
+var holaMundo = "hola, Mundo!!!"
+console.log(holaMundo) 
 
-helloWorld = "¡Hola de nuevo, JavaScript!"
-console.log(helloWorld)
+holaMundo = "hola de nuevo, Mundo"
+console.log(holaMundo) 
 
 // let
 
-let helloWorld2 = "¡Hola, JavaScript 2!"
-console.log(helloWorld2)
+let holaMundo2 = "hola, Mundo 2!!!"
+console.log(holaMundo2) 
 
-helloWorld2 = "¡Hola de nuevo, JavaScript 2!"
-console.log(helloWorld2)
+holaMundo2 = "hola de nuevo, Mundo  2"
+console.log(holaMundo2) 
 
 // const
 
-const helloWorld3 = "¡Hola, JavaScript 3!"
-console.log(helloWorld3)
+const holaMundo3 = "hola, Mundo 3!!!"
+console.log(holaMundo3) 
 
-// Error
-// helloWorld3 = "¡Hola de nuevo, JavaScript 2!"
-// console.log(helloWorld3)
+/*
+Error! la constante no puede ser reasignada:
+
+holaMundo3 = "hola de nuevo, Mundo  3"
+console.log(holaMundo3) 
+*/
